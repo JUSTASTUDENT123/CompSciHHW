@@ -1,3 +1,4 @@
+#Question 5
 def is_palindrome(n):
     return str(n) == ''.join(reversed(str(n)))
 n = int(input("Enter number: "))
